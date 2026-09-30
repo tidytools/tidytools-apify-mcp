@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tidytools/tidytools-apify-tools",
+  "title": "TidyTools: lead enrichment, RAG Markdown, transcripts, AI crawler checks",
+  "description": "Enrich Google Maps leads, crawl docs to RAG Markdown, transcribe podcasts, check AI crawler access.",
+  "repository": {
+    "url": "https://github.com/tidytools/tidytools-apify-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/tidytools",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=tidytools/company-website-enrichment,tidytools/website-contact-extractor,tidytools/website-markdown-crawler,tidytools/document-to-markdown,tidytools/audio-transcriber,tidytools/ai-crawler-access-checker",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your Apify API token>, or leave empty and sign in with OAuth. Token: https://console.apify.com/settings/integrations",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
