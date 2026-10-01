@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=tidytools/company-website-enrichment,tidytools/website-contact-extractor,tidytools/website-markdown-crawler,tidytools/document-to-markdown,tidytools/audio-transcriber,tidytools/ai-crawler-access-checker",
+      "url": "https://mcp.apify.com/?tools=tidytools/website-contact-extractor,tidytools/website-markdown-crawler,tidytools/document-to-markdown,tidytools/audio-transcriber,tidytools/ai-crawler-access-checker",
       "headers": [
         {
           "name": "Authorization",
